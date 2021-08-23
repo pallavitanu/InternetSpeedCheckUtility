@@ -1,0 +1,143 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2021-08-23T19:05:35.503Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1578631300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefs.Hooks.initializeTest()"
+            }
+          }
+        ],
+        "line": 3,
+        "name": "Check the Internet Speed in a particular time interval",
+        "description": "",
+        "id": "check-the-internet-speed;check-the-internet-speed-in-a-particular-time-interval",
+        "after": [
+          {
+            "result": {
+              "duration": 1959400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefs.Hooks.endTest(io.cucumber.java.Scenario)"
+            }
+          },
+          {
+            "result": {
+              "duration": 391353500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefs.Hooks.AfterSteps()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 12189273200,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "User is on HomePage of URL \"https://www.speedtest.net/\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "https://www.speedtest.net/",
+                  "offset": 28
+                }
+              ],
+              "location": "stepDefs.HomePageStepDef.user_is_on_HomePage_of_URL(java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 172713300,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Validate that home page heading is displayed",
+            "match": {
+              "location": "stepDefs.HomePageStepDef.validate_that_home_page_heading_is_displayed()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 525977652800,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User checks Internet Speed in a particular time interval",
+            "match": {
+              "location": "stepDefs.HomePageStepDef.user_checks_Internet_Speed_in_a_particular_time_interval()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2049235000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User click on the Result button and download the Result",
+            "match": {
+              "location": "stepDefs.HomePageStepDef.user_click_on_the_Result_button_and_download_the_Result()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 829020000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Validate that the result file is downloaded",
+            "match": {
+              "location": "stepDefs.HomePageStepDef.validate_that_the_result_file_is_downloaded()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 13502621300,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "User mail the result file from user \"tanudance01@gmail.com\" and password \"Pallavi1!\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "tanudance01@gmail.com",
+                  "offset": 37
+                },
+                {
+                  "val": "Pallavi1!",
+                  "offset": 74
+                }
+              ],
+              "location": "stepDefs.HomePageStepDef.user_mail_the_result_file_from_user_and_password(java.lang.String,java.lang.String)"
+            },
+            "keyword": "And "
+          }
+        ]
+      }
+    ],
+    "name": "Check the Internet Speed",
+    "description": "",
+    "id": "check-the-internet-speed",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/FeatureFiles/TestSpeed.feature",
+    "tags": []
+  }
+]
