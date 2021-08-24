@@ -165,8 +165,8 @@ public class HomePageObjects {
 					
 				}
 			else {
-				Thread.sleep(intervalTimeInMiliSec);
 				errorTimes.add(this.getTodayDate());
+				Thread.sleep(intervalTimeInMiliSec);
 				i++;
 				driver.navigate().refresh();
     			//Thread.sleep(5000);
